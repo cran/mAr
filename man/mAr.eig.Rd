@@ -19,6 +19,8 @@ mAr.eig(A, C, ...)
   A list with components: 
   \item{dampTime }{damping times associated with each eigenmode}
   \item{period }{periods associated with each eigenmode}
+  \item{excitations}{relative dynamical importance of modes}
+  \item{eigv}{m*p m-dimensional eigenvectors}
 }
 
 \references{

@@ -64,7 +64,7 @@ sbc[i]=logdp[i]/m - log(ne)*(ne-np[i])/ne # Schwartz's Bayesian Criterion
 }
 
 # selected optimal order
-popt=pmin+(which.min(sbc)-1)
+popt=which.min(sbc)
 npopt=m*popt+1
 
 

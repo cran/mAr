@@ -1,0 +1,12 @@
+	
+Thu Mar 11 2004 
+	- mAr 1.0-2
+	* bug fix - function mAr.est: replacement of popt=pmin+(which.min(sbc)-1) on optimal order selection by popt=which.min(sbc)
+	* added: normalisation conditions for eigenvectors, computation of excitations and relative dynamical importance of modes (function mAr.eig)
+
+Wed Mar 03 2004
+	- mAr 1.0-1
+	* added output of SBC (function mAr.est)
+
+Fri Feb 27 2004
+	* mAr 1.0 released
