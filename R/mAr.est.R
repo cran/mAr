@@ -93,7 +93,7 @@ res[t,seq(1,m)]=x[t+popt,]-(rep(1,n-popt) %*% t(w))
 for (j in seq(1,popt)) {res[t,seq(1,m)]=res[t,seq(1,m)]-(x[(t-j+popt),] %*% t(A[, seq(m*j-m+1,j*m)]))}
 
 
-return (list(pHat=popt,wHat=w,AHat=A,CHat=C,res=res))
+return (list(pHat=popt,SBC=sbc[pmin:pmax],wHat=w,AHat=A,CHat=C,res=res))
 
 
 }

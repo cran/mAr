@@ -29,6 +29,7 @@ mAr.est(x, pmin, pmax, ...)
 \value{
   A list with components:
   \item{pHat }{order of the fitted model,chosen by SBC}
+  \item{SBC }{Schwartz Bayesian Criterion}
   \item{wHat }{vector of intercept terms}
   \item{AHat }{matrix of estimated autoregression coefficients for the fitted model} 
   \item{CHat }{noise covariance matrix}  
