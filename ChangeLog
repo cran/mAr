@@ -1,4 +1,7 @@
-	
+Wed Sep 8 2004 
+	- mAr 1.0-3
+	* revert change
+		
 Thu Mar 11 2004 
 	- mAr 1.0-2
 	* bug fix - function mAr.est: replacement of popt=pmin+(which.min(sbc)-1) on optimal order selection by popt=which.min(sbc)
