@@ -1,12 +1,8 @@
 Package: mAr
-Version: 1.0-3
-Title: functions for multivariate AutoRegressive analysis
+Title: Multivariate AutoRegressive analysis
+Version: 1.1
 Author: S. M. Barbosa
+Description: R functions for multivariate autoregressive analysis
 Maintainer: S. M. Barbosa <susana.barbosa@fc.up.pt>
-License: GPL
-Description: Estimation of multivariate AR models through a 
- computationally-efficient stepwise least-squares 
- algorithm (Neumaier and Schneider, 2001); the 
- procedure is of particular interest for high-dimensional 
- data without missing values such as geophysical fields.
-Packaged: Wed Sep  8 08:52:28 2004; susana
+License: GPL version 2 or newer
+Packaged: Wed May 11 18:23:42 2005; susana

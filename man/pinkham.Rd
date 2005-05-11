@@ -16,7 +16,5 @@
 \references{
   Wei, W. (1994) Time series analysis -  univariate and multivariate methods  
 }
-\examples{
-data(pinkham)
-}
+
 \keyword{datasets}

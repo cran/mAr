@@ -1,8 +1,8 @@
 \name{mAr.sim}
 \alias{mAr.sim}
-\title{ Simulation from multivariate AR(p) model }
+\title{ Simulation from a multivariate AR(p) model }
 \description{
-  Simulation from a m-variate AR(p) model
+  Simulation from an m-variate AR(p) model
 }
 \usage{
 mAr.sim(w, A, C, N, ...)
@@ -16,12 +16,12 @@ mAr.sim(w, A, C, N, ...)
   \item{\dots}{ additional arguments}
 }
 \details{
-  Simulation from a m-variate AR(p) model given by 
+  Simulation from an m-variate AR(p) model given by 
   \deqn{X[t]=w + A1 X[t-1] +...+ Ap X[t-p] +e[t]}
   where \cr
   X[t]=[X1(t)...Xm(t)]' is a vector of length m \cr
   w is a m-length vector of intercept terms \cr
-  A=[A1 ... Ap] is a mp x m matrix of autoregressive coefficients \cr
+  A=[A1 ... Ap] is a m x mp matrix of autoregressive coefficients \cr
   e(t) is a m-length uncorrelated noise vector with mean 0 and m x m covariance matrix C
 }
 \value{
