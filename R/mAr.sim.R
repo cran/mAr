@@ -1,4 +1,4 @@
-"mAr.sim" <-
+mAr.sim <-
 function (w, A, C, N, ...) 
 {
     m = dim(A)[1]

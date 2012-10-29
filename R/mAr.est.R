@@ -1,4 +1,4 @@
-"mAr.est" <-
+mAr.est <-
 function (x, p, ...) 
 {
     x = as.matrix(x)

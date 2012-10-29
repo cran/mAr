@@ -15,7 +15,7 @@ mAr.est(x, p, ...)
   \item{\dots}{ additional arguments for specific methods }
 }
 \details{
-   Fits by stepwise least squares an m-variate AR(p) model given by 
+   Fits by stepwise least squares an m-variate AR(p) model given by
   \deqn{X[t]=w + A1 X[t-1] +...+ Ap X[t-p] +e[t]}
   where \cr
   X[t]=[X1(t)...Xm(t)]' is a vector of length m \cr
@@ -27,11 +27,11 @@ mAr.est(x, p, ...)
   A list with components:
   \item{SBC }{Schwartz Bayesian Criterion}
   \item{wHat }{vector of intercept terms}
-  \item{AHat }{matrix of estimated autoregression coefficients for the fitted model} 
-  \item{CHat }{noise covariance matrix}  
+  \item{AHat }{matrix of estimated autoregression coefficients for the fitted model}
+  \item{CHat }{noise covariance matrix}
   \item{resid }{residuals from the fitted model}
 }
-\references{ 
+\references{
 Neumaier, A. and Schneider, T. (2001), Estimation of parameters and eigenmodes of multivariate autoregressive models. ACM Transactions on Mathematical Software, 27, 1, 27-57. \cr\cr
 Schneider, T. and Neumaier, A. (2001), A Matlab package fo the estimation of parameters and eigenmodes of multivariate autoregressive models, 27, 1, 58-65. \cr\cr
 Lutkepohl, H. (1993), Introduction to Multiple Time Series Analysis. Springer-Verlag, Berlin.
@@ -39,9 +39,9 @@ Lutkepohl, H. (1993), Introduction to Multiple Time Series Analysis. Springer-Ve
 
 \author{ S. M. Barbosa  }
 
-\seealso{
-        \code{\link[ts]{ar}}
-}
+%\seealso{
+%        \code{\link[ts]{ar}}
+%}
 
 \examples{
 data(pinkham)

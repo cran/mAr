@@ -1,4 +1,4 @@
-"mAr.eig" <-
+mAr.eig <-
 function (A, C = NULL, ...) 
 {
     m = dim(A)[1]

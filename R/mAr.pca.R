@@ -1,4 +1,4 @@
-"mAr.pca" <-
+mAr.pca <-
 function (x, p, k = dim(x)[2], ...) 
 {
     require(mAr)
@@ -29,5 +29,5 @@ function (x, p, k = dim(x)[2], ...)
     modes = mAr.eig(A)$modes
     P = V %*% mAr.eig(A, C)$eigv
     return(list(order = p, SBC = SBC, fraction.variance = fraction.variance[1:k], 
-        resid = mArModel$resid, eigv = P, modes = modes))
+        resid = mArModel$resid, eigv = P, modes = modes, scores = scores))
 }
