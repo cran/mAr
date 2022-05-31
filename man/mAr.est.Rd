@@ -32,6 +32,8 @@ mAr.est(x, p, ...)
   \item{resid }{residuals from the fitted model}
 }
 \references{
+Barbosa S.M., Silva M.E., Fernandes M.J. (2006), Multivariate autoregressive modelling of sea level time series from TOPEX/Poseidon satellite altimetry. Nonlinear Processes in Geophysics, 13, 177-184.
+\cr\cr
 Neumaier, A. and Schneider, T. (2001), Estimation of parameters and eigenmodes of multivariate autoregressive models. ACM Transactions on Mathematical Software, 27, 1, 27-57. \cr\cr
 Schneider, T. and Neumaier, A. (2001), A Matlab package fo the estimation of parameters and eigenmodes of multivariate autoregressive models, 27, 1, 58-65. \cr\cr
 Lutkepohl, H. (1993), Introduction to Multiple Time Series Analysis. Springer-Verlag, Berlin.

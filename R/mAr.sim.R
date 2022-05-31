@@ -18,7 +18,6 @@ function (w, A, C, N, ...)
         warning("unstable AR model")
     nd = 1000
     U = chol(C)
-    require(MASS)
     noisevec = mvrnorm(nd + N, rep(0, m), C)
     matw = rep(1, nd + N) %*% t(w)
     vec = noisevec + matw
